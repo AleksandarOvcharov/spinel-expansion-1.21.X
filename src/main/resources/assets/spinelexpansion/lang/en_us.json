@@ -3,5 +3,8 @@
   "item.spinelexpansion.raw_spinel": "Raw Spinel",
 
   "block.spinelexpansion.spinel_block": "Block of Spinel",
-  "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel"
+  "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel",
+
+  "itemgroup.spinelexpansion.spinel_items": "Spinel Items",
+  "itemgroup.spinelexpansion.spinel_blocks": "Spinel Blocks"
 }
