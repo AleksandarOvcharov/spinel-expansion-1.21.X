@@ -1,4 +1,7 @@
 {
   "item.spinelexpansion.spinel": "Spinel",
-  "item.spinelexpansion.raw_spinel": "Raw Spinel"
+  "item.spinelexpansion.raw_spinel": "Raw Spinel",
+
+  "block.spinelexpansion.spinel_block": "Block of Spinel",
+  "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel"
 }
