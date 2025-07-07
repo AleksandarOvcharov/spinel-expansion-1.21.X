@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.valhal4o1331.spinelexpansion.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
