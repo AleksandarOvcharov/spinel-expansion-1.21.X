@@ -21,10 +21,5 @@ public class ModItems {
 
     public static void registerModItems() {
         SpinelExpansion.LOGGER.info("Registering Mod Items for " + SpinelExpansion.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-           entries.add(SPINEL);
-           entries.add(RAW_SPINEL);
-        });
     }
 }

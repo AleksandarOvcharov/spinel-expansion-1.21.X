@@ -2,10 +2,19 @@ package net.valhal4o1331.spinelexpansion;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.valhal4o1331.spinelexpansion.datagen.ModBlockTagProvider;
+import net.valhal4o1331.spinelexpansion.datagen.ModLootTableProvider;
+import net.valhal4o1331.spinelexpansion.datagen.ModModelProvider;
+import net.valhal4o1331.spinelexpansion.datagen.ModRecipeProvider;
 
 public class SpinelExpansionDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
+		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }
