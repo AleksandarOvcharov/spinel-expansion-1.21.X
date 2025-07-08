@@ -28,5 +28,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_SPINEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ANTHRACITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.REFINED_ANTHRACITE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SPINEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SPINEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SPINEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SPINEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SPINEL_HOE, Models.HANDHELD);
     }
 }

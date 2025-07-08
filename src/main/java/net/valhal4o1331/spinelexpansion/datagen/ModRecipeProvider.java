@@ -42,5 +42,56 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.RAW_SPINEL_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_SPINEL_BLOCK), conditionsFromItem(ModBlocks.RAW_SPINEL_BLOCK))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_PICKAXE)
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_AXE)
+                .pattern("SS ")
+                .pattern("ST ")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_SHOVEL)
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_HOE)
+                .pattern("SS ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
     }
 }

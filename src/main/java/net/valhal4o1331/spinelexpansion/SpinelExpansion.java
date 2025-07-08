@@ -19,5 +19,6 @@ public class SpinelExpansion implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFuelItems.registerFuelItems();
+
 	}
 }

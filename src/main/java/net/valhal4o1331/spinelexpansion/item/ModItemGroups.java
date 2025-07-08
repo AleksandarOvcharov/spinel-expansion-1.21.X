@@ -19,6 +19,12 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SPINEL);
                         entries.add(ModItems.RAW_SPINEL);
+
+                        entries.add(ModItems.SPINEL_SWORD);
+                        entries.add(ModItems.SPINEL_PICKAXE);
+                        entries.add(ModItems.SPINEL_SHOVEL);
+                        entries.add(ModItems.SPINEL_AXE);
+                        entries.add(ModItems.SPINEL_HOE);
                     }).build());
 
     public static final ItemGroup SPINEL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

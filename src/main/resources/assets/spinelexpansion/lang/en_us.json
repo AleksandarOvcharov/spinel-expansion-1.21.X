@@ -4,6 +4,12 @@
   "item.spinelexpansion.raw_anthracite": "Raw Anthracite",
   "item.spinelexpansion.refined_anthracite": "Refined Anthracite",
 
+  "item.spinelexpansion.spinel_sword": "Spinel Sword",
+  "item.spinelexpansion.spinel_pickaxe": "Spinel Pickaxe",
+  "item.spinelexpansion.spinel_shovel": "Spinel Shovel",
+  "item.spinelexpansion.spinel_axe": "Spinel Axe",
+  "item.spinelexpansion.spinel_hoe": "Spinel Hoe",
+
   "block.spinelexpansion.spinel_block": "Block of Spinel",
   "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel",
   "block.spinelexpansion.spinel_ore": "Spinel Ore",
