@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "spinelexpansion:spinel"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " T ",
+    " T "
+  ],
+  "result": {
+    "count": 1,
+    "id": "spinelexpansion:spinel_shovel"
+  }
+}
