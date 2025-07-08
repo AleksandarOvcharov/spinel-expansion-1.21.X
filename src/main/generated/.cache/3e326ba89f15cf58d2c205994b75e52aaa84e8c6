@@ -1,0 +1,6 @@
+// 1.21	2025-07-08T22:26:09.4755023	Spinel Expansion/Block Loot Tables
+82e387a72ece59f26e126ca12dc04a07eaa90b1e data\spinelexpansion\loot_table\blocks\spinel_ore.json
+12687af5da6da9dcd63d7f3aed40365469190e11 data\spinelexpansion\loot_table\blocks\spinel_block.json
+a3bc8089608e901d636d9af6b447867ef4b637c7 data\spinelexpansion\loot_table\blocks\anthracite_ore.json
+63f80857ab8983b1bd819f2f8174c0b52b35a1cf data\spinelexpansion\loot_table\blocks\raw_spinel_block.json
+bb5ffaeda0a11944f37f9ee3befbf0a326d18edb data\spinelexpansion\loot_table\blocks\spinel_deepslate_ore.json

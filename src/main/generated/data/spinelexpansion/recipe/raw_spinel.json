@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spinelexpansion:raw_spinel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "spinelexpansion:raw_spinel"
+  }
+}
