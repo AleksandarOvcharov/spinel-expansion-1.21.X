@@ -2,8 +2,8 @@ package net.valhal4o1331.spinelexpansion;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
+import net.valhal4o1331.spinelexpansion.item.ModFuelItems;
 import net.valhal4o1331.spinelexpansion.item.ModItemGroups;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
 import org.slf4j.Logger;
@@ -18,7 +18,6 @@ public class SpinelExpansion implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
-		FuelRegistry.INSTANCE.add(ModItems.REFINED_ANTHRACITE, 30000);
+		ModFuelItems.registerFuelItems();
 	}
 }
