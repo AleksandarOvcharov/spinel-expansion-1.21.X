@@ -6,6 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.valhal4o1331.spinelexpansion.SpinelExpansion;
+import net.valhal4o1331.spinelexpansion.item.custom.HammerItem;
 
 public class ModItems {
     public static final Item SPINEL = registerItem("spinel", new Item(new Item.Settings()));
@@ -17,7 +18,7 @@ public class ModItems {
     public static final Item SPINEL_SWORD = registerItem("spinel_sword",
             new SwordItem(ModToolMaterials.SPINEL, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers
-                            (ModToolMaterials.SPINEL, 3, -2.4f))));
+                            (ModToolMaterials.SPINEL, 8, -2.4f))));
 
     public static final Item SPINEL_PICKAXE = registerItem("spinel_pickaxe",
             new PickaxeItem(ModToolMaterials.SPINEL, new Item.Settings()
@@ -38,6 +39,11 @@ public class ModItems {
             new HoeItem(ModToolMaterials.SPINEL, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers
                             (ModToolMaterials.SPINEL, 1, -3f))));
+
+    public static final Item SPINEL_HAMMER = registerItem("spinel_hammer",
+            new HammerItem(ModToolMaterials.SPINEL, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers
+                            (ModToolMaterials.SPINEL, 7, -3.4f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SpinelExpansion.MOD_ID, name), item);

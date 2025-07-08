@@ -25,6 +25,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SPINEL_SHOVEL);
                         entries.add(ModItems.SPINEL_AXE);
                         entries.add(ModItems.SPINEL_HOE);
+
+                        entries.add(ModItems.SPINEL_HAMMER);
                     }).build());
 
     public static final ItemGroup SPINEL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

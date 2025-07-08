@@ -34,5 +34,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPINEL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SPINEL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SPINEL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SPINEL_HAMMER, Models.HANDHELD);
     }
 }

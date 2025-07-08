@@ -2,10 +2,12 @@ package net.valhal4o1331.spinelexpansion;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
 import net.valhal4o1331.spinelexpansion.item.ModFuelItems;
 import net.valhal4o1331.spinelexpansion.item.ModItemGroups;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
+import net.valhal4o1331.spinelexpansion.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +21,8 @@ public class SpinelExpansion implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFuelItems.registerFuelItems();
+
+		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 
 	}
 }

@@ -93,5 +93,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SPINEL_HAMMER)
+                .pattern("SSS")
+                .pattern("STS")
+                .pattern(" T ")
+                .input('S', ModItems.SPINEL)
+                .input('T', Items.STICK)
+                .criterion(hasItem(ModItems.SPINEL), conditionsFromItem(ModItems.SPINEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
     }
 }

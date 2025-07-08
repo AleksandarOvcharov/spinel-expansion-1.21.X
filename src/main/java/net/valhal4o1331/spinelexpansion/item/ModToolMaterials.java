@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     SPINEL(ModTags.Blocks.INCORRECT_FOR_SPINEL_TOOL,
-            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.SPINEL));
+            3521, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.SPINEL));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
