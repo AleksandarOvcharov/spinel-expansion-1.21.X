@@ -12,6 +12,7 @@ public class ModItems {
     public static final Item SPINEL = registerItem("spinel", new Item(new Item.Settings()));
     public static final Item RAW_SPINEL = registerItem("raw_spinel", new Item(new Item.Settings()));
     public static final Item RAW_ANTHRACITE = registerItem("raw_anthracite", new Item(new Item.Settings()));
+
     public static final Item REFINED_ANTHRACITE = registerItem("refined_anthracite", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
