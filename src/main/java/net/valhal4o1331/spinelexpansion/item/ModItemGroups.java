@@ -33,6 +33,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPINEL_DEEPSLATE_ORE);
                     }).build());
 
+    public static final ItemGroup ANTHRACITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(SpinelExpansion.MOD_ID, "anthracite_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ANTHRACITE_ORE))
+                    .displayName(Text.translatable("itemgroup.spinelexpansion.anthracite_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ANTHRACITE_ORE);
+                        entries.add(ModItems.RAW_ANTHRACITE);
+                        entries.add(ModItems.REFINED_ANTHRACITE);
+                    }).build());
+
     public static void registerItemGroups() {
         SpinelExpansion.LOGGER.info("Registering Item Groups for " + SpinelExpansion.MOD_ID);
     }

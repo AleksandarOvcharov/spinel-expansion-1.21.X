@@ -29,6 +29,9 @@ public class ModBlocks {
     public static final Block SPINEL_DEEPSLATE_ORE = registerBlock("spinel_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block ANTHRACITE_ORE = registerBlock("anthracite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -49,6 +52,7 @@ public class ModBlocks {
 
             entries.add(ModBlocks.SPINEL_ORE);
             entries.add(ModBlocks.SPINEL_DEEPSLATE_ORE);
+            entries.add(ModBlocks.ANTHRACITE_ORE);
         });
     }
 }
