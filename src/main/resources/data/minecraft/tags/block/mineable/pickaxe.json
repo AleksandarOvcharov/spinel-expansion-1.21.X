@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "spinelexpansion:spinel_block",
+    "spinelexpansion:raw_spinel_block",
+    "spinelexpansion:spinel_ore",
+    "spinelexpansion:spinel_deepslate_ore"
+  ]
+}

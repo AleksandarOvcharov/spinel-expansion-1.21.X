@@ -28,6 +28,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SPINEL_BLOCK);
                         entries.add(ModBlocks.RAW_SPINEL_BLOCK);
+
+                        entries.add(ModBlocks.SPINEL_ORE);
+                        entries.add(ModBlocks.SPINEL_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups() {

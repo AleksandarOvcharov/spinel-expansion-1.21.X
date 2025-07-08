@@ -4,6 +4,8 @@
 
   "block.spinelexpansion.spinel_block": "Block of Spinel",
   "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel",
+  "block.spinelexpansion.spinel_ore": "Spinel Ore",
+  "block.spinelexpansion.spinel_deepslate_ore": "Spinel Deepslate Ore",
 
   "itemgroup.spinelexpansion.spinel_items": "Spinel Items",
   "itemgroup.spinelexpansion.spinel_blocks": "Spinel Blocks"
