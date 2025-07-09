@@ -7,6 +7,7 @@ import net.valhal4o1331.spinelexpansion.item.ModFuelItems;
 import net.valhal4o1331.spinelexpansion.item.ModItemGroups;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
 import net.valhal4o1331.spinelexpansion.util.HammerUsageEvent;
+import net.valhal4o1331.spinelexpansion.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +21,7 @@ public class SpinelExpansion implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFuelItems.registerFuelItems();
+		ModWorldGeneration.generateModWorldGen();
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 
