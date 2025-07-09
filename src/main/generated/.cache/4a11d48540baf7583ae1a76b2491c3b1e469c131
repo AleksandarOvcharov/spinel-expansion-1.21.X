@@ -1,4 +1,4 @@
-// 1.21.3	2025-07-09T20:11:05.7416063	Spinel Expansion/Spinel Expansion Recipes 
+// 1.21.3	2025-07-10T01:33:19.7771967	Spinel Expansion/Spinel Expansion Recipes 
 5e88fd03f2a6e954f10b311c245299aca7bf2d75 data\spinelexpansion\recipe\spinel_axe.json
 cd1b960815a2ad6b5bb5c64f04d4c32ff58ceeb8 data\spinelexpansion\recipe\spinel_hoe.json
 923ffaabfe2cfddb4896c9f9eec46634c0eb9bd1 data\spinelexpansion\recipe\spinel_from_blasting_raw_spinel.json
@@ -35,7 +35,7 @@ cd2faa6a3878e32c5826b9317d9017d3701c010f data\spinelexpansion\recipe\spinel_hamm
 216a3bfb2b6d124417b3fe664bbb0c2b89556040 data\spinelexpansion\recipe\raw_spinel.json
 e7c3472a894a2ded384965e965f720d1715e629f data\spinelexpansion\advancement\recipes\misc\spinel_from_blasting_raw_spinel.json
 1f72b3881c074ca05eaabda1e891e91a0ac6d9e2 data\spinelexpansion\recipe\spinel_leggings.json
-66c4113ae6bbbcd546a0482ab294b2706b9e9979 data\spinelexpansion\recipe\spinel_pickaxe.json
 a4bc151fbf6e527b6ed769e8651f43115a4ec8c0 data\spinelexpansion\advancement\recipes\misc\spinel_from_blasting_spinel_ore.json
+66c4113ae6bbbcd546a0482ab294b2706b9e9979 data\spinelexpansion\recipe\spinel_pickaxe.json
 00ef5e9466de5e18f85270aa981fec5b7eda50fa data\spinelexpansion\advancement\recipes\misc\spinel_from_smelting_spinel_ore.json
 8945ed40a4161e89efb38c614ff7397c3e47d692 data\spinelexpansion\advancement\recipes\misc\spinel_from_blasting_spinel_deepslate_ore.json
