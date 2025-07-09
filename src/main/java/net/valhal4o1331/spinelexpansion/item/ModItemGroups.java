@@ -27,6 +27,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SPINEL_HOE);
 
                         entries.add(ModItems.SPINEL_HAMMER);
+
+                        entries.add(ModItems.SPINEL_HELMET);
+                        entries.add(ModItems.SPINEL_CHESTPLATE);
+                        entries.add(ModItems.SPINEL_LEGGINGS);
+                        entries.add(ModItems.SPINEL_BOOTS);
                     }).build());
 
     public static final ItemGroup SPINEL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

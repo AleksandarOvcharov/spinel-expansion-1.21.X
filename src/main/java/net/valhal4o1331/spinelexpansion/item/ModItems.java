@@ -45,6 +45,22 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers
                             (ModToolMaterials.SPINEL, 7, -3.4f))));
 
+    public static final Item SPINEL_HELMET = registerItem("spinel_helmet",
+            new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+
+    public static final Item SPINEL_CHESTPLATE = registerItem("spinel_chestplate",
+            new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+
+    public static final Item SPINEL_LEGGINGS = registerItem("spinel_leggings",
+            new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+
+    public static final Item SPINEL_BOOTS = registerItem("spinel_boots",
+            new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SpinelExpansion.MOD_ID, name), item);
     }

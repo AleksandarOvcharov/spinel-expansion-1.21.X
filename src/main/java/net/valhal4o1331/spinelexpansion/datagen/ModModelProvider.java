@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
 
@@ -36,5 +37,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPINEL_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.SPINEL_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_BOOTS);
     }
 }

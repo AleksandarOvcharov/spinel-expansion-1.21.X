@@ -31,5 +31,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.SPINEL_HOE);
 
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SPINEL_HELMET)
+                .add(ModItems.SPINEL_CHESTPLATE)
+                .add(ModItems.SPINEL_LEGGINGS)
+                .add(ModItems.SPINEL_BOOTS);
+
     }
 }
