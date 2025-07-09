@@ -16,7 +16,6 @@
   "item.spinelexpansion.spinel_boots": "Spinel Boots",
 
   "item.spinelexpansion.spinel_hammer": "Spinel Hammer",
-  "item.spinelexpansion.spinel_armor_trim_smithing_template": "Spinel Smithing Template",
 
   "block.spinelexpansion.spinel_block": "Block of Spinel",
   "block.spinelexpansion.raw_spinel_block": "Block of Raw Spinel",
@@ -26,8 +25,5 @@
 
   "itemgroup.spinelexpansion.spinel_items": "Spinel Items",
   "itemgroup.spinelexpansion.spinel_blocks": "Spinel Blocks",
-  "itemgroup.spinelexpansion.anthracite_items": "Anthracite Items",
-
-  "trim_material.spinelexpansion.spinel": "Spinel Material",
-  "trim_pattern.spinelexpansion.spinel": "Spinel Armor Pattern"
+  "itemgroup.spinelexpansion.anthracite_items": "Anthracite Items"
 }

@@ -32,8 +32,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SPINEL_CHESTPLATE);
                         entries.add(ModItems.SPINEL_LEGGINGS);
                         entries.add(ModItems.SPINEL_BOOTS);
-
-                        entries.add(ModItems.SPINEL_SMITHING_TEMPLATE);
                     }).build());
 
     public static final ItemGroup SPINEL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
