@@ -37,5 +37,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SPINEL_LEGGINGS)
                 .add(ModItems.SPINEL_BOOTS);
 
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.SPINEL);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.SPINEL_SMITHING_TEMPLATE);
+
     }
 }

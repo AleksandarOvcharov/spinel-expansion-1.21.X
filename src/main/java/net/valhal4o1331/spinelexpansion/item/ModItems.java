@@ -1,9 +1,9 @@
 package net.valhal4o1331.spinelexpansion.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 import net.valhal4o1331.spinelexpansion.SpinelExpansion;
 import net.valhal4o1331.spinelexpansion.item.custom.HammerItem;
@@ -61,6 +61,9 @@ public class ModItems {
     public static final Item SPINEL_BOOTS = registerItem("spinel_boots",
             new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
+    public static final Item SPINEL_SMITHING_TEMPLATE = registerItem("spinel_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(SpinelExpansion.MOD_ID, "spinel"), FeatureFlags.VANILLA));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SpinelExpansion.MOD_ID, name), item);

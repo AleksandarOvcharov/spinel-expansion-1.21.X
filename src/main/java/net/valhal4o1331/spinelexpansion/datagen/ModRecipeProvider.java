@@ -9,6 +9,8 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
+import net.valhal4o1331.spinelexpansion.SpinelExpansion;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
 
@@ -25,8 +27,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> SPINEL_SMELTABLES = List.of(ModItems.RAW_SPINEL, ModBlocks.SPINEL_ORE,
                 ModBlocks.SPINEL_DEEPSLATE_ORE);
 
-        offerSmelting(exporter, SPINEL_SMELTABLES, RecipeCategory.MISC, ModItems.SPINEL, 0.25f, 200, "spinel");
-        offerBlasting(exporter, SPINEL_SMELTABLES, RecipeCategory.MISC, ModItems.SPINEL, 0.25f, 200, "spinel");
+        offerSmelting(exporter, SPINEL_SMELTABLES, RecipeCategory.MISC, ModItems.SPINEL, 0.25f, 200, "spinel_smelting");
+        offerBlasting(exporter, SPINEL_SMELTABLES, RecipeCategory.MISC, ModItems.SPINEL, 0.25f, 200, "spinel_blasting");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SPINEL, RecipeCategory.DECORATIONS, ModBlocks.SPINEL_BLOCK);
 
@@ -134,6 +136,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.SPINEL)
                 .criterion("has_spinel", conditionsFromItem(ModItems.SPINEL))
                 .offerTo(exporter);
+
+        offerSmithingTrimRecipe(exporter, ModItems.SPINEL_SMITHING_TEMPLATE, Identifier.of(SpinelExpansion.MOD_ID,
+                "spinel"));
 
 
 

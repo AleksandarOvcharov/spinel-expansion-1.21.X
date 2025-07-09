@@ -42,5 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_BOOTS);
+
+        itemModelGenerator.register(ModItems.SPINEL_SMITHING_TEMPLATE, Models.HANDHELD);
     }
 }
