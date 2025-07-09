@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.valhal4o1331.spinelexpansion.SpinelExpansion;
 import net.valhal4o1331.spinelexpansion.item.custom.HammerItem;
+import net.valhal4o1331.spinelexpansion.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final Item SPINEL = registerItem("spinel", new Item(new Item.Settings()));
@@ -46,7 +47,7 @@ public class ModItems {
                             (ModToolMaterials.SPINEL, 7, -3.4f))));
 
     public static final Item SPINEL_HELMET = registerItem("spinel_helmet",
-            new ArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SPINEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
 
     public static final Item SPINEL_CHESTPLATE = registerItem("spinel_chestplate",
