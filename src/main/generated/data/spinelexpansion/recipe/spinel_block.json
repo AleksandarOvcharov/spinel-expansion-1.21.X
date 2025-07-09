@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "spinelexpansion:spinel"
-    }
+    "#": "spinelexpansion:spinel"
   },
   "pattern": [
     "###",

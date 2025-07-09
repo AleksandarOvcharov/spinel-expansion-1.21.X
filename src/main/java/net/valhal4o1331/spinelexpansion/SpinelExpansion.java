@@ -1,7 +1,6 @@
 package net.valhal4o1331.spinelexpansion;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
 import net.valhal4o1331.spinelexpansion.item.ModFuelItems;

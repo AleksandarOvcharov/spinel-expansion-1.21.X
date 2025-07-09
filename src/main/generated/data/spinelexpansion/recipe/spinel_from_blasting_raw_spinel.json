@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.25,
   "group": "spinel",
-  "ingredient": {
-    "item": "spinelexpansion:raw_spinel"
-  },
+  "ingredient": "spinelexpansion:raw_spinel",
   "result": {
     "id": "spinelexpansion:spinel"
   }

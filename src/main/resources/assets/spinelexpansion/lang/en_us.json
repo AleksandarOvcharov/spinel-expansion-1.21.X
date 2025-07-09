@@ -25,5 +25,9 @@
 
   "itemgroup.spinelexpansion.spinel_items": "Spinel Items",
   "itemgroup.spinelexpansion.spinel_blocks": "Spinel Blocks",
-  "itemgroup.spinelexpansion.anthracite_items": "Anthracite Items"
+  "itemgroup.spinelexpansion.anthracite_items": "Anthracite Items",
+
+  "tag.block.spinelexpansion.needs_spinel_tool": "Requires Spinel Tool",
+  "tag.block.spinelexpansion.incorrect_for_spinel_tool": "Cannot be Mined with Spinel Tool",
+  "tag.item.spinelexpansion.spinel_repair": "Can Repair Spinel Items"
 }

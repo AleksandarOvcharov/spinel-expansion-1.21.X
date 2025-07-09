@@ -16,4 +16,12 @@ public class ModTags {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(SpinelExpansion.MOD_ID, name));
         }
     }
+
+    public static class Items {
+        public static final TagKey<Item> SPINEL_REPAIR = createTag("spinel_repair");
+
+        private static TagKey<Item> createTag(String name) {
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(SpinelExpansion.MOD_ID, name));
+        }
+    }
 }

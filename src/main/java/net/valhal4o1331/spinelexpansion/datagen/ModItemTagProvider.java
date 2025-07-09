@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
+import net.valhal4o1331.spinelexpansion.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -36,6 +37,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SPINEL_CHESTPLATE)
                 .add(ModItems.SPINEL_LEGGINGS)
                 .add(ModItems.SPINEL_BOOTS);
+
+        getOrCreateTagBuilder(ModTags.Items.SPINEL_REPAIR)
+                .add(ModItems.SPINEL);
 
     }
 }

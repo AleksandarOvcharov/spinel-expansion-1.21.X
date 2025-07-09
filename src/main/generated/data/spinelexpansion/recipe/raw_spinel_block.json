@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
-      "item": "spinelexpansion:raw_spinel"
-    }
+    "R": "spinelexpansion:raw_spinel"
   },
   "pattern": [
     "RRR",

@@ -5,7 +5,11 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.equipment.EquipmentModel;
+import net.minecraft.util.Identifier;
+import net.valhal4o1331.spinelexpansion.SpinelExpansion;
 import net.valhal4o1331.spinelexpansion.block.ModBlocks;
 import net.valhal4o1331.spinelexpansion.item.ModItems;
 
@@ -38,9 +42,14 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.SPINEL_HAMMER, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.SPINEL_BOOTS);
+        itemModelGenerator.registerArmor(ModItems.SPINEL_HELMET, Identifier.of(SpinelExpansion.MOD_ID, "spinel"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(SpinelExpansion.MOD_ID, "spinel")).build(), EquipmentSlot.HEAD);
+        itemModelGenerator.registerArmor( ModItems.SPINEL_CHESTPLATE, Identifier.of(SpinelExpansion.MOD_ID, "spinel"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(SpinelExpansion.MOD_ID, "spinel")).build(), EquipmentSlot.CHEST);
+        itemModelGenerator.registerArmor( ModItems.SPINEL_LEGGINGS, Identifier.of(SpinelExpansion.MOD_ID, "spinel"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(SpinelExpansion.MOD_ID, "spinel")).build(), EquipmentSlot.LEGS);
+        itemModelGenerator.registerArmor( ModItems.SPINEL_BOOTS, Identifier.of(SpinelExpansion.MOD_ID, "spinel"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(SpinelExpansion.MOD_ID, "spinel")).build(), EquipmentSlot.FEET);
+
     }
 }
